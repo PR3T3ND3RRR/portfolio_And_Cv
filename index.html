@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Interactive Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body style="background-color: #333;">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#">Muhammad Daffa</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="src/vitae.html">Curriculum Vitae</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <header class="d-flex align-items-center justify-content-center">
+        <div>
+            <h1>Portfolio - Daffa</h1>
+            <br>
+            <h1>Curious? Let's Explore!</h1>
+        </div>
+    </header>
+    <section id="about" data-aos="fade-up">
+        <h2>About Me</h2>
+        <div class="line-container">
+        <div class="line"></div>
+        <p class="p-about">
+            Saya adalah seorang pelajar SMK yang memiliki kompetensi di bidang rekayasa perangkat lunak dan memiliki minat di bidang backend dan juga data.
+            Namun, saya juga terbuka untuk divisi lain seperti web developer, front end developer, serta UI/UX designer. 
+            Saya mencari kesempatan untuk mempraktikkan dan mengembangkan kemampuan saya, oleh karena itu, saya berusaha untuk terlibat dalam proyek-proyek dan kegiatan yang dapat
+            meberikan pengalaman untuk mengaplikasikan ilmu saya.
+        </p>
+    </section>
+    <section id="projects" data-aos="fade-up">
+        <h2>Projects</h2>
+        <div class="project" data-aos="fade-right">
+            <h3>Project 1</h3>
+            <img src="src/Memvisualisasikan data persebaran laki laki di jakarta pusat.png" class="project-img" alt="">
+            <p>Melakukan visualisasi data menggunakan python dengan matplot dari dataset yang sudah ditentukan</p>
+        </div>
+        <div class="project" data-aos="fade-left">
+            <h3>Project 2</h3>
+            <img src="src/Menampilkan sejumlah list dengan persyaratan spesifik.png" class="project-img" alt="">
+            <p>Menampilkan sejumlah list menggunakan SELECT dengan persyaratan tertentu, dimana total</p>
+            <p>pembelian pelanggan harus diatas 100.000</p>
+        </div>
+        <div class="project" data-aos="fade-right">
+            <h3>Project 3</h3>
+            <img src="src/Membuat visualisasi data dengan filtering.png" alt="" class="project-img">
+            <p>Membuat sebuah diagram batang menggunakan library "ggplot2" dan hanya menampilkan jumlah</p>
+               <p>mahasiswa fakultas ICT dan Ilmu Komunikasi dengan warna berbeda pada tiap angkatan</p>
+        </div>
+        <div class="project" data-aos="fade-right">
+          <h3>Project 4</h3>
+          <video controls src="src/127.0.0.1_5500_lorem.html - Brave 2025-03-05 15-58-15.mp4" height="50%" width="50%"></video>
+          <p>Membuat kartu ucapan ulang tahun menggunakkan html dan native css</p>
+        </div>
+    </section>
+    <section id="contact" data-aos="fade-up">
+        <h2>Contact Me!! :D</h2>
+        <br>
+        <img src="src/WhatsApp_app_icon-removebg-preview.png" width="3%" height="3%" style="float: left;" alt=""> <p style="padding-left: 70px; padding-top: 7px;"> | +62-896-7374-2835</p>
+        <br>
+        <img src="src/gmail.png" height="3%" width="3%" style="float: left;" alt=""> <p style="padding-left: 70px; padding-top: 7px;"> | @dbl97581@gmail.com</p>
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="scripts.js"></script>
+</body>
+</html>
